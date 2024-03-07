@@ -25,6 +25,9 @@ header h3 {
     font-style: italic; /* Set the font style to italic */
     margin-left: 30px; /* Indent the heading 30 pixels */
 }
+.logo-text {
+    margin-left: 10px; /* Adjust the value as needed */
+}
 
 /* CSS rule to italicize links on focus or hover */
 a:focus,
