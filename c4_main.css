@@ -25,7 +25,10 @@ header h3 {
     font-style: italic; /* Set the font style to italic */
     margin-left: 30px; /* Indent the heading 30 pixels */
 }
-
+/* Create a style rule using the class selector (.shadow) */
+.shadow {
+    text-shadow: 2px 2px 4px var(--global-color-1); /* Add a shadow using the custom property */
+}
 /* CSS rule to italicize links on focus or hover */
 a:focus,
 a:hover {
@@ -50,10 +53,6 @@ main h3 {
     font-size: 105%;
 }
 
-/* Create a style rule using the class selector (.shadow) */
-.shadow {
-    text-shadow: 2px 2px 4px #800000; /* Add a shadow to the text with #800000 as the color */
-}
 
 /* the styles for the footer */
 footer {
