@@ -1,3 +1,8 @@
+/* Define a custom property for the root element */
+:root {
+    --global-color-1: #800000; /* Assign a value of #800000 */
+}
+
 /* the styles for the elements */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +16,7 @@ header img {
 
 header h2 {
     font-size: 170%; /* Set the font size to 170% */
-    color: #800000; /* Set the color to #800000 */
+    color: var(--global-color-1); /* Use custom property for color */
     margin-left: 30px; /* Indent the heading 30 pixels */
 }
 
@@ -20,33 +25,33 @@ header h3 {
     font-style: italic; /* Set the font style to italic */
     margin-left: 30px; /* Indent the heading 30 pixels */
 }
+
 /* CSS rule to italicize links on focus or hover */
 a:focus,
 a:hover {
     font-style: italic;
 }
-:root {
-    --global-color-1: #ff0000; /* Define the variable and assign it a color value */
-}
+
 /* the styles for the main content */
 main {
     clear: left;
 }
+
 main h1 {
     font-size: 150%;
 }
+
 main h2 {
-    color: var(--global-color-1);
+    color: var(--global-color-1); /* Use custom property for color */
     font-size: 130%;
 }
+
 main h3 {
     font-size: 105%;
 }
+
 /* the styles for the footer */
 footer {
     text-align: center; /* Center-align the content of the footer */
 }
-/* Create a style rule using the class selector (.shadow) */
-.shadow {
-    text-shadow: 2px 2px 4px #800000; /* Add a shadow to the text with #800000 as the color */
-}
+
