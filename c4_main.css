@@ -1,0 +1,41 @@
+/* the styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+    float: left;
+}
+
+header h2 {
+    font-size: 170%; /* Set the font size to 170% */
+    color: #800000; /* Set the color to #800000 */
+    margin-left: 30px; /* Indent the heading 30 pixels */
+}
+
+header h3 {
+    font-size: 130%; /* Set the font size to 130% */
+    font-style: italic; /* Set the font style to italic */
+    margin-left: 30px; /* Indent the heading 30 pixels */
+}
+:root {
+    --global-color-1: #ff0000; /* Define the variable and assign it a color value */
+}
+/* the styles for the main content */
+main {
+    clear: left;
+}
+main h1 {
+    font-size: 150%;
+}
+main h2 {
+    color: var(--global-color-1);
+    font-size: 130%;
+}
+main h3 {
+    font-size: 105%;
+}
+
+/* the styles for the footer */
