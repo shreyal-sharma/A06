@@ -42,5 +42,7 @@ main h2 {
 main h3 {
     font-size: 105%;
 }
-
 /* the styles for the footer */
+footer {
+    text-align: center; /* Center-align the content of the footer */
+}
