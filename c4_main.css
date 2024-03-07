@@ -20,6 +20,11 @@ header h3 {
     font-style: italic; /* Set the font style to italic */
     margin-left: 30px; /* Indent the heading 30 pixels */
 }
+/* CSS rule to italicize links on focus or hover */
+a:focus,
+a:hover {
+    font-style: italic;
+}
 :root {
     --global-color-1: #ff0000; /* Define the variable and assign it a color value */
 }
