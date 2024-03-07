@@ -1,3 +1,6 @@
+:root {
+    --global-color-1: #800000; /* Define the variable and assign it a color value */
+}
 /* the styles for the elements */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +14,7 @@ header img {
 
 header h2 {
     font-size: 170%; /* Set the font size to 170% */
-    color: #800000; /* Set the color to #800000 */
+    color: var(--global-color-1); /* Set the color to #800000 */
     margin-right: 30px; /* Indent the heading 30 pixels */
 }
 
@@ -25,9 +28,7 @@ a:focus,
 a:hover {
     font-style: italic;
 }
-:root {
-    --global-color-1: #ff0000; /* Define the variable and assign it a color value */
-}
+
 /* the styles for the main content */
 main {
     clear: left;
