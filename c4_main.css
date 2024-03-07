@@ -17,7 +17,7 @@ header img {
 header h2 {
     font-size: 170%; /* Set the font size to 170% */
     color: var(--global-color-1); /* Use custom property for color */
-    margin-left: 10px; /* Adjust the margin to create space */
+    margin-left: 20px; /* Adjust the margin to create space */
 }
 
 header h3 {
