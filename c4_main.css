@@ -17,16 +17,13 @@ header img {
 header h2 {
     font-size: 170%; /* Set the font size to 170% */
     color: var(--global-color-1); /* Use custom property for color */
-    margin-left: 30px; /* Indent the heading 30 pixels */
+    margin-left: 10px; /* Adjust the margin to create space */
 }
 
 header h3 {
     font-size: 130%; /* Set the font size to 130% */
     font-style: italic; /* Set the font style to italic */
     margin-left: 30px; /* Indent the heading 30 pixels */
-}
-.logo-text {
-    margin-left: 10px; /* Adjust the value as needed */
 }
 
 /* CSS rule to italicize links on focus or hover */
@@ -52,6 +49,7 @@ main h2 {
 main h3 {
     font-size: 105%;
 }
+
 /* Create a style rule using the class selector (.shadow) */
 .shadow {
     text-shadow: 2px 2px 4px #800000; /* Add a shadow to the text with #800000 as the color */
