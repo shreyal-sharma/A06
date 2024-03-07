@@ -12,13 +12,13 @@ header img {
 header h2 {
     font-size: 170%; /* Set the font size to 170% */
     color: #800000; /* Set the color to #800000 */
-    margin-left: 30px; /* Indent the heading 30 pixels */
+    margin-right: 30px; /* Indent the heading 30 pixels */
 }
 
 header h3 {
     font-size: 130%; /* Set the font size to 130% */
     font-style: italic; /* Set the font style to italic */
-    margin-left: 30px; /* Indent the heading 30 pixels */
+    margin-right: 30px; /* Indent the heading 30 pixels */
 }
 /* CSS rule to italicize links on focus or hover */
 a:focus,
