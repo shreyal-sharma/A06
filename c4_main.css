@@ -46,7 +46,7 @@ main h3 {
 footer {
     text-align: center; /* Center-align the content of the footer */
 }
-/* Add text shadow to the class "shadow" */
+/* Create a style rule using the class selector (.shadow) */
 .shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px #800000; /* Add a shadow to the text with #800000 as the color */
 }
